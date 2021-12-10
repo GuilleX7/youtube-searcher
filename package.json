@@ -1,0 +1,32 @@
+{
+  "name": "@guillex7/youtube-searcher",
+  "version": "1.0.2",
+  "description": "Search Youtube videos without using Youtube API",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jasmine-ts --config=jasmine.json"
+  },
+  "author": "guillermox7@gmail.com",
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/GuilleX7/youtube-searcher"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.10.2",
+    "@types/node": "^16.11.11",
+    "jasmine": "^3.10.0",
+    "jasmine-ts": "^0.4.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "files": [
+    "build/**/*"
+  ]
+}
